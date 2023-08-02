@@ -1,8 +1,6 @@
 
 package modelo;
 
-import bd.DatabaseMysql;
-
 public class Carro {
 
     private String marca;
@@ -15,13 +13,5 @@ public class Carro {
         return marca;
     }
 
-    public void guardarEnBD() {
-
-        DatabaseMysql databaseMysql = new DatabaseMysql();
-
-        databaseMysql.guardar();
-
-        System.out.println("Guarde en BD");
-    }
 }
 
