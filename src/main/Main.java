@@ -23,9 +23,9 @@ public class Main {
 
     public static void imprimirPrecioMedioCoche(Carro[] carros) {
         for (Carro carro : carros) {
-            int precioMedio = PrecioMedioCocheCalculator.calcularPrecioMedio(carro);
-            if (precioMedio > 0) {
-                System.out.println(precioMedio);
+            int priceMedia = PrecioMedioCocheCalculator.calcularPrecioMedio(carro);
+            if (priceMedia > 0) {
+                System.out.println(priceMedia);
             } else {
                 System.out.println("Precio desconocido para la marca: " + carro.getMarca());
             }
