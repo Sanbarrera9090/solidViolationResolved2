@@ -17,6 +17,8 @@ public class Main {
         DatabaseMysql database = new DatabaseMysql();
         CarroService service = new CarroService(database);
         service.guardarCocheDB(new Carro("Renault"));
+        service.guardarCocheDB(new Carro("Audi"));
+
     }
 
     public static void imprimirPrecioMedioCoche(Carro[] carros) {
