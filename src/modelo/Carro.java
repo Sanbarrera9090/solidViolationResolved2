@@ -4,6 +4,7 @@ package modelo;
 import bd.DatabaseMysql;
 
 public class Carro {
+    public String duro;
 
     private String marca;
 
