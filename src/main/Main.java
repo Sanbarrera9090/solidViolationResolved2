@@ -7,8 +7,6 @@ import logica.CarroService;
 import modelo.Carro;
 
 public class Main {
-
-    public String holaaaa;
     public static void main(String[] args) {
         Carro[] arrayCoches = {
                 new Carro("Renault"),
